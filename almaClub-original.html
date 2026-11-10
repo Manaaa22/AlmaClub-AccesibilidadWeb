@@ -199,9 +199,12 @@
             <form method="GET" action="/search" class="header-search__form uk-flex-1">
                 <div class="uk-grid-collapse uk-flex-center uk-grid" uk-grid>
                     <div class="uk-width-1-2@s uk-width-3-5">
+
                         <div class="field field--search">
+                            <label for="search" class="uk-form-label" style="display:none;">Buscar en la tienda</label>
                             <input type="text" name="q" min-length="2" id="search" class="field__input border-radius header-search__input field__input--right-button" autocomplete="off" placeholder="Buscar..." required/>
                         </div>
+
                     </div>
                     <div class="uk-width-auto@s uk-width-auto">
                         <button type="submit" id="search-btn" class="button uk-button-input--no-radius button--full background--primary background--primary-hover contrast_text--primary contrast_text--primary-hover uk-button uk-button-input border-radius"  data-label="&lt;i class=&quot;fas fa-search&quot;&gt;&lt;/i&gt;" data-spinner-ratio="0.75" >
